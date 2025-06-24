@@ -1,21 +1,81 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Belajar CSS</title>
-    <style>
-      p {
-        font-size: 18px;
-        text-align: justify;
-      }
-      i {
-        color: red;
-      }
-      b {
-        background-color: yellow;
-      }
-    </style>
-  </head>
-  <body></body>
-</html>
+    body{ 
+      background-color: beige;
+    }
+    .indent{
+      text-indent: 2em;
+    }
+    h2, h1{
+      color: rgba(102, 255, 0, 0.603);
+      text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.8);
+      text-align: center;
+      text-decoration: underline;
+    }
+    .container{
+      margin-right: 150px;
+    }
+    .gatau{
+      margin-left: 100px;
+      margin-bottom: 50px;
+    }
+    table{
+      border-collapse: collapse;
+    }
+    td{
+      text-align: left;
+    }
+    th{
+      background-color: rgb(224, 157, 74);
+    }
+    nav a:hover{
+      background-color: pink;
+      padding: 8px;
+      border-radius: 5px;
+    }
+    a{
+      margin: 10px;
+      text-decoration: none;
+    }
+    nav{
+      margin-top: -2px;
+      margin-bottom: 30px;
+    }
+    img{
+      border: 5px dashed rgba(102, 255, 0, 0.603);
+      border-radius: 20px;
+    }
+    pre{
+      font-size: 15px;
+      margin-top: -30px;
+    }
+    .pusing{
+      margin-left: 350px;
+      margin-bottom: -10px;
+    }
+    div, header{
+      background-color: lightblue;
+      border-radius: 50px;
+      border: 10px dotted pink;
+      margin: 20px;
+    }
+  input {
+      background-color: #A8F1FF;
+      border-radius: 30px;
+      color: black;
+      margin-left:3%;
+      margin-top: 5%;
+      border: 0.2vw solid #593140;
+      padding: 5% 10% 5% 10%;
+  }
+  .gmail{
+      margin-left: 8%;
+  }
+  .pw {
+      margin-top: 7%;
+      margin-left: 4%;
+  }
+  .login{
+      margin-top: 2%;
+      margin-left: 10%;
+      width: 60%;
+      margin-bottom: 30px;
+  }

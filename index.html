@@ -4,150 +4,29 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>article</title>
-    <style> -->
-      p {
-        font-size: 15px;
-        text-align: justify;
-      }
-      body{
-        background-color: bisque;
-      }
-      .indent{
-        text-indent: 2em;
-      }
-      h2, h1{
-        color: rgba(102, 255, 0, 0.603);
-        text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.8);
-      }
-    </style>
+    <link rel="stylesheet" href="style.css">
   </head>
   <body>
     <header>
-      <h1 align="center">Haloo Matchalovers</h1>
-    </header>
-    <nav align="center">
-      <a href="#my bio">My Bio|</a>
-      <a href="#my article">My Article|</a>
-      <a href="gallery.html">My Gallery|</a>
-      <a href="gallery.html">My Study|</a>
-      <a href="gallery.html">My Social Media</a>
-    </nav>
-    <hr />
-      <h2 align="center">MY BIO</h2>
-      <div id="my bio" >
-        <section style="display: flex;">
-        <figure>
-          <img src="Assets/yiran.jpeg" width="150" alt="rang rang" />
-        </figure>
-        <hr>
-        <p>
-          HELLO MY NAME IS <b>LESTARI</b> 
-          <br /><br /><b><i>IM FROM:</i></b>
-          <br /><br />BANDUNG CITY, WEST JAVA<br />
-          <br />I am 19 years, 6 months, and 4 days old. 
-          <br />My favorite color is sea blue, and I like matcha. 
-          <br />That’s why the theme of my article is about matcha.
-          <hr />
-          <dd>
-            <b>MY HOBI</b>
-            <ol>
-              <li>Watching drama</li>
-              <li>Hiking</li>
-              <li>Travelling</li>
-              <li>Knit</li>
-            </ol>
-          </p>
-          </dd>
+      <figure align="center">
+        <img src="Assets/logo.jpg" width=100" title="stars" alt="logo" />
+      </figure>
+      <h1>Login To My Profile</h1>
+      <h3 align="center">Welcome</h3>
+    </header> 
+    <div>
+      <section>
+        <form align="center" action="beranda.html">
+          <label for="email">Masukkan Email:</label>
+          <input class="gmail" type="email" name="email" id="email" placeholder="contoh: lstari@gmail.com"required> <br><br>
+          <label for="username">Masukkan Username:</label>
+          <input type="text" name="username" minlength="3" maxlength="8" id="username" placeholder="contoh: Lstarii"required> <br>
+          <label for="password">Masukkan Password:</label>
+          <input class="pw" type="password" name="password" minlength="6" maxlength="6" id="password" placeholder="contoh: 123456" required><br><br>
+          <input class="login" type="submit" value="LOGIN" >
+      </form>
       </section>
     </div>
-    <hr>
-
-    <div id="my article"></div>
-    <section>
-      <article>
-          <h2 align="center">MY ARTICLE</h2>
-          <h4 align="center">Kandungan Gizi Matcha</h4>
-          <figure align="center">
-            <img src="Assets/matcha2.jpg" width="100" alt="Pure Matcha" />
-            <figcaption>Pure Matcha</figcaption>
-          </figure>
-          <p class="indent">
-            Matcha, bubuk teh hijau asal Jepang yang telah menjadi tren global,
-            bukan hanya populer karena rasanya yang unik dan warna
-            hijaunya yang menarik, tetapi juga karena kandungan gizinya
-            yang luar biasa. Berbeda dari teh hijau biasa, matcha dibuat
-            dari daun teh (Camellia sinensis) yang ditanam secara khusus dan
-            digiling halus, sehingga seluruh daun dikonsumsi dalam bentuk
-            bubuk. Inilah yang menjadikan matcha lebih unggul dari segi
-            gizi dan manfaat kesehatan.
-            <br>
-            <br>
-            Matcha kaya kan berbagai
-            nutrisi penting dan senyawa bioaktif, diantaranya:
-            <ol>
-              <li>
-                <b>Antioksidan Tinggi(EGCG)</b>
-                <ul>
-                  <li>
-                    Matcha mengandung <b>epigallocatechin gallate (EGCG)</b>,
-                    antioksidan kuat <br />yang dapat membantu melawan radikal
-                    bebas, mengurangi peradangan, <br />dan mencegah kerusakan
-                    sel.
-                  </li>
-                  <li>
-                    Kandungan antioksidan matcha disebut-sebut
-                    <b>137 kali lebih tinggi</b> <br />dibanding teh hijau
-                    biasa.
-                  </li>
-                </ul>
-              </li>
-              <li>
-                <b>Kafein dan L-Theanine</b>
-                <ul>
-                  <li>
-                    Matcha mengandung <b>kafein</b>, tetapi dalam jumlah yang
-                    lebih stabil dan <br />seimbang, menghasilkan energi yang
-                    lebih tahan lama.
-                  </li>
-                  <li>
-                    Bersamaan dengan itu, <b>L-theanine</b>, asam amino yang
-                    unik dalam teh, <br />membantu memberikan efek menenangkan
-                    dan meningkatkan fokus tanpa <br />rasa gelisah seperti yang
-                    biasa muncul dari konsumsi kafein.
-                  </li>
-                </ul>
-              </li>
-              <li>
-                <b>Vitamin dan Mineral</b>
-                <ul>
-                  <li>
-                    Matcha mengandung berbagai vitamin seperti
-                    <b>vitamin A, C, E, K,</b> <br />serta vitamin B-kompleks.
-                  </li>
-                  <li>
-                    Mineral penting seperti
-                    <b>potasium, kalsium, magnesium, dan zat besi</b> <br />juga
-                    hadir dalam matcha, walaupun dalam jumlah sedang.
-                  </li>
-                </ul>
-              </li>
-              <li>
-                <b>Serat</b>
-                <ul>
-                  <li>
-                    Karena dikonsumsi dalam bentuk daun utuh, matcha mengandung
-                    lebih
-                    <br />banyak <b>serat</b> dibanding teh hijau seduhan, yang
-                    membantu pencernaan <br />dan pengendalian gula darah.
-                  </li>
-                </ul>
-              </li>
-            </ol>
-          </p>
-          </article>
-          <hr />
-        </section>
-      </div>
     <footer><b>copyright &copy;2025 lstrii_</b></footer>
   </body>
 </html>
